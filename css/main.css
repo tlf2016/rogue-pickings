@@ -1,0 +1,176 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 413px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 110px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #000000;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #77a466;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+/***** HERO IMAGE *****/
+#hero-image .full-width {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  line-height: 0px;
+  clear: both;
+}
+
+/***** WELCOME *****/
+#welcome .full-width {
+}
+
+#welcome h2 {
+  font-size: 18px;
+  color: #77a466;
+  text-transform: uppercase;
+  padding-top: 28px;
+}
+
+#welcome p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+  line-height: 28px;
+  padding-right: 50px;
+}
+
+#about .full-width {
+  padding: 30px 0;
+}
+
+#about .third-width {
+  width: 400px;
+  height: 200px;
+  padding-bottom: 30px;
+}
+
+#specials, #reviews {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+#contact {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#specials, #reviews, #contact h4 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 25px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#specials ul {
+  font-size: 16px;
+  font-weight: normal;
+  color: #77a466;
+  text-transform: capitalize;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+  line-height: 35px;
+  padding-bottom: 31px;
+}
+
+#reviews h4 {
+  padding-left: 30px;
+}
+
+#reviews p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: none;
+  line-height: 20px;
+  padding: 0 30px;
+}
+
+#contact h4 {
+  padding-left: 30px;
+  border-right: none;
+}
+
+#contact ul {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: capitalize;
+  list-style-type: none;
+  line-height: 25px;
+  border-right: none;
+  padding-bottom: 45px;
+}
+
+  /***** FOOTER *****/
+  #powered-by .full-width {
+    height: 75px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#powered-by h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#powered-by span {
+    font-size: 16px;
+    font-style: italic;
+    color: #77a466;
+    text-transform: lowercase;
+}
